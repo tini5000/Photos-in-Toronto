@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>500px in Google Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="contenier">
+  
+  <header>
+    <div id="title">
+      <h1>Photos in Toronto</h1>
+	  <img src="cnTower.jpg" alt="cnTower">
+    </div>
+  
+	<div id="search">
+	  <form>
+		<input type="text" placeholder="Enter a name to get photos from Toronto.">
+		<button>Press Here</button>
+	  </form>
+	</div>
+  </header>
+  
+  <main>
+	<div id="photos"></div>
+	<div id="mapPhotos"></div>
+  </main>
+  
+  </div> <!-- end of contenier -->
+  
+  
+  </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGzarOjsZ7yA6wHn5DDgpFdndsUyTZSos&callback=initMap"
+    async defer></script>
+ <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.6.2.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

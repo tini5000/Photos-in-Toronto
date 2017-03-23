@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height: 200px;
+}
+
+#title{
+	background-color: #F29738;
+	height: 150px;
+}
+
+#title h1{
+	color: #2B2219;
+	font-size: 65px;
+	float: left;
+	padding: 36px 30px;
+}
+
+#title img {
+	height: 80px;
+	width: 66px;
+	float: right;
+	padding: 35px 30px;
+}
+
+#search{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 14px;
+	background-color: #FFC383;
+}
+
+input{
+	width: 240px;
+}
+
+#photos{
+	background-color: #FFDDBA;
+	float: left;
+}
+
+.image{
+	display: inline;
+}
+
+#mapPhotos {
+	height: 574px;
+	width: 100%;
+	border: 1px solid black;
+	float: right;
+}
+
