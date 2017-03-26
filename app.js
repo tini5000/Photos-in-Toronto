@@ -67,6 +67,9 @@ function displayPhoto(){
 	
 	// change map div size 
 	$('#mapPhotos').css('width', '647px');
+	var currCenter = map.getCenter();
+	google.maps.event.trigger(map, 'resize');
+        map.setCenter(currCenter);
 	// change photo div size
 	$('#photos').css('width', '700px')
 	// change main size
@@ -80,7 +83,7 @@ function displayPhoto(){
 			markers[id].setAnimation(null);
 		} else {
 			markers[id].setAnimation(google.maps.Animation.BOUNCE);
-			
+			setTimeout(function(){ markers[id].setAnimation(null); }, 900); //bounce once
 		};
 		
 	});
